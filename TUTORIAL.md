@@ -29,7 +29,8 @@ Goal: Deploy a S3 bucket, test
         - AWS CLI
         - AWS CDK or install via npm
 1. Define resource
-    1. Add s3 dependency
+    1. show docs, explain structure https://docs.aws.amazon.com/cdk/api/latest/docs/aws-s3-readme.html
+    1. Add s3 dependency npm install -D @aws-cdk/aws-s3  
     2. Define bucket
 1. Include in stack
     - environment
