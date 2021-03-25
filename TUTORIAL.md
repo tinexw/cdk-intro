@@ -34,16 +34,17 @@ Goal: Deploy a S3 bucket incl. test
     1. Add s3 dependency `npm install -D @aws-cdk/aws-s3`
     1. Define bucket
     1. Add test https://docs.aws.amazon.com/cdk/latest/guide/testing.html
-1. Include in stack
-    - environment
-    - tags        
-    - snapshot test
 1. Deploy
+    - Include in stack
     - synth 
         - generated IDs
         - Logical Names
     - deploy
     - view in consolte
+    - Add
+      - environment
+      - tags        
+      - snapshot test
 1. Make change
     - extend test
     - adapt snapshot test
