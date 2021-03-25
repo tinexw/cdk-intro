@@ -45,7 +45,10 @@ Goal: Deploy a S3 bucket incl. test
       - environment
       - tags        
       - snapshot test
-1. Make change
+1. Destroy
+    - retention settings
+    - auto delete objects
+3. Make change
     - extend test
     - adapt snapshot test
     - deploy
