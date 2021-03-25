@@ -6,7 +6,7 @@ export class BucketStack extends cdk.Stack {
     super(scope, id, props);
 
     new s3.Bucket(this, 'MyFirstBucket', {
-      //removalPolicy: cdk.RemovalPolicy.DESTROY
+      removalPolicy: cdk.RemovalPolicy.DESTROY
     }
     );
   }

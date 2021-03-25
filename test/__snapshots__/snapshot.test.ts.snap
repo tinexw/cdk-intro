@@ -4,9 +4,9 @@ exports[`bucket stack 1`] = `
 Object {
   "Resources": Object {
     "MyFirstBucketB8884501": Object {
-      "DeletionPolicy": "Retain",
+      "DeletionPolicy": "Delete",
       "Type": "AWS::S3::Bucket",
-      "UpdateReplacePolicy": "Retain",
+      "UpdateReplacePolicy": "Delete",
     },
   },
 }
