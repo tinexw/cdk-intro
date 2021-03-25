@@ -1,18 +1,17 @@
 # Outline
 
 1. What is CDK
-    - https://aws.amazon.com/blogs/
-    - Abstracction on top of Cloudformation
+    - Abstraction on top of Cloudformation
     - Deveoper Preview released 08/2018: https://aws.amazon.com/blogs/developer/aws-cdk-developer-preview/, GA 07/2019 https://aws.amazon.com/about-aws/whats-new/2019/07/the-aws-cloud-development-kit-aws-cdk-is-now-generally-available1/
     - Multiple programming languages supported
     - Build-in test support for TypeScript
     - High-level constructs: App, Stack, Constructs, ...  https://docs.aws.amazon.com/cdk/latest/guide/core_concepts.htmldeveloper/aws-cdk-developer-preview/
-    - Separate libs for services   
-    - Advantages over plain cloudformation
+    - Separate libs for each service   
+    - Some advantages over plain cloudformation
         - Eases things e.g. certificates are created automatically
         - allows for more advanced setups e.g. loops
         - Simplifed deployment commands
-    - Disadvantages
+    - Some disadvantages
         - Same as every abstraction...
         - you might not realize what's going on under the hood, harder to troubleshoot
         - lots of magic e.g. lambdas to update resource policies or dependencies between stacks voa export/import
@@ -21,7 +20,7 @@
         
 # Tutorial 
 
-Goal: Deploy a S3 bucket, test
+Goal: Deploy a S3 bucket incl. test
 
 1. Project structure
     - bin, lib, test
