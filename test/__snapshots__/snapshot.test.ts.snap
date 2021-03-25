@@ -1,3 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`bucket stack 1`] = `Object {}`;
+exports[`bucket stack 1`] = `
+Object {
+  "Resources": Object {
+    "MyFirstBucketB8884501": Object {
+      "DeletionPolicy": "Retain",
+      "Type": "AWS::S3::Bucket",
+      "UpdateReplacePolicy": "Retain",
+    },
+  },
+}
+`;
