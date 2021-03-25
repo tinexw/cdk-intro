@@ -1,6 +1,6 @@
 # Outline
 
-1. What is CDK
+1. What is CDK https://docs.aws.amazon.com/cdk/latest/guide/home.html
     - Abstraction on top of Cloudformation
     - Deveoper Preview released 08/2018: https://aws.amazon.com/blogs/developer/aws-cdk-developer-preview/, GA 07/2019 https://aws.amazon.com/about-aws/whats-new/2019/07/the-aws-cloud-development-kit-aws-cdk-is-now-generally-available1/
     - Multiple programming languages supported
