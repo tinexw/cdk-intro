@@ -1,10 +1,12 @@
 # Outline
 
 1. What is CDK
+    - https://aws.amazon.com/blogs/
     - Abstracction on top of Cloudformation
+    - Deveoper Preview released 08/2018: https://aws.amazon.com/blogs/developer/aws-cdk-developer-preview/, GA 07/2019 https://aws.amazon.com/about-aws/whats-new/2019/07/the-aws-cloud-development-kit-aws-cdk-is-now-generally-available1/
     - Multiple programming languages supported
     - Build-in test support for TypeScript
-    - Constructs, ... 
+    - High-level constructs: App, Stack, Constructs, ...  https://docs.aws.amazon.com/cdk/latest/guide/core_concepts.htmldeveloper/aws-cdk-developer-preview/
     - Separate libs for services   
     - Advantages over plain cloudformation
         - Eases things e.g. certificates are created automatically
@@ -30,7 +32,7 @@ Goal: Deploy a S3 bucket, test
         - AWS CDK or install via npm
 1. Define resource
     1. show docs, explain structure https://docs.aws.amazon.com/cdk/api/latest/docs/aws-s3-readme.html
-    1. Add s3 dependency npm install -D @aws-cdk/aws-s3  
+    1. Add s3 dependency `npm install -D @aws-cdk/aws-s3`
     2. Define bucket
 1. Include in stack
     - environment
@@ -39,7 +41,9 @@ Goal: Deploy a S3 bucket, test
     - assert
     - snapshot
 1. Deploy
-    - synth
+    - synth 
+        - generated IDs
+        - Logical Names
     - deploy
     - view in consolte
 1. Make change
