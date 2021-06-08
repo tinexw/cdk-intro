@@ -16,4 +16,4 @@ const stackProps = {
     },
   };
 
-new BucketStack(app, 'BucketStack', stackProps);
+new BucketStack('staging', app, 'BucketStack', stackProps);

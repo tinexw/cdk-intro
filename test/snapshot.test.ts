@@ -5,6 +5,6 @@ import { BucketStack } from '../lib/bucket-stack';
 
 test('bucket stack', () => {
   const app = new cdk.App();
-  const stack = new BucketStack(app, 'TestBucketStack');
+  const stack = new BucketStack('foo', app, 'TestBucketStack');
   expect(SynthUtils.toCloudFormation(stack)).toMatchSnapshot();
 });

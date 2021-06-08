@@ -3,21 +3,23 @@
 exports[`bucket stack 1`] = `
 Object {
   "Resources": Object {
-    "MyFirstBucketB8884501": Object {
-      "DeletionPolicy": "Retain",
+    "Bucket83908E77": Object {
+      "DeletionPolicy": "Delete",
       "Properties": Object {
-        "BucketEncryption": Object {
-          "ServerSideEncryptionConfiguration": Array [
-            Object {
-              "ServerSideEncryptionByDefault": Object {
-                "SSEAlgorithm": "AES256",
-              },
-            },
-          ],
-        },
+        "BucketName": "my-bucket-foo",
+        "Tags": Array [
+          Object {
+            "Key": "environment",
+            "Value": "foo",
+          },
+          Object {
+            "Key": "foo",
+            "Value": "bar",
+          },
+        ],
       },
       "Type": "AWS::S3::Bucket",
-      "UpdateReplacePolicy": "Retain",
+      "UpdateReplacePolicy": "Delete",
     },
   },
 }
