@@ -5,9 +5,10 @@
     - Deveoper Preview released 08/2018: https://aws.amazon.com/blogs/developer/aws-cdk-developer-preview/, GA 07/2019 https://aws.amazon.com/about-aws/whats-new/2019/07/the-aws-cloud-development-kit-aws-cdk-is-now-generally-available1/
     - Multiple programming languages supported
     - Build-in test support for TypeScript
-    - High-level constructs: App, Stack, Constructs, ...  https://docs.aws.amazon.com/cdk/latest/guide/core_concepts.htmldeveloper/aws-cdk-developer-preview/
-    - Separate libs for each service   
+    - High-level constructs: App, Stack, Constructs, ...  https://docs.aws.amazon.com/cdk/latest/guide/core_concepts.html
+    - Separate libs for each service (changes in version 2: https://docs.aws.amazon.com/cdk/latest/guide/work-with-cdk-v2.html)
     - Some advantages over plain cloudformation
+        - Ability to extract shared functionality into constructs and reuse, even as shared libraries
         - Eases things e.g. certificates are created automatically
         - allows for more advanced setups e.g. loops
         - Simplifed deployment commands
